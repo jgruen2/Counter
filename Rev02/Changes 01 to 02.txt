@@ -1,0 +1,11 @@
+- Added do indicators of pin 1 on the battery management IC and boost IC
+- Made the output capacitance pad larger, C8.
+- Moved reference designators off of pads
+- Added orientation for diodes, LED's
+- Switch pin out is incorrect
+- Changed the slide switch pins so that off is in the down position
+- Moved the increment push botton and R19
+- U11 and U5 pin 6 and 7 changed from Reset_GND to Gnd
+- Changed the reset circuitry to add dnf components incase debounce does not work
+- CP0 was changed to the switch and CP1 was changed to AX
+- Added decoupling cap to the input power to 7-seg
